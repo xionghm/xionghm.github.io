@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: xhm
+subtitle: '少年郎的肩头应该扛些草长莺飞和杨柳依依'
+description: 'xxxx'
 keywords:
-author: John Doe
-language: en
+author: xiong
+language: zh
 timezone: ''
 
 # URL
@@ -97,9 +97,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo:
+    github: git@github.com:xionghm/xionghm.github.io.git
+    # github: https://github.com/LemonMei/LemonMei.github.io.git
+  branch: master
+
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
