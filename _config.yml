@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: xhm
 subtitle: ''
 description: ''
 keywords:
@@ -105,3 +105,7 @@ deploy:
   type: git
   repo: git@github.com:xionghm/xionghm.github.io.git
   branch: master
+
+markdown:
+  plugins:
+    - "@traptitech/markdown-it-katex"

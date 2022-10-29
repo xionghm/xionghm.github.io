@@ -6,7 +6,6 @@ layout: about
 
 
 
-```yaml
-这里写关于页的正文，支持 Markdown, HTML
-```
+欢迎关注~
+不常更新，敬请见谅~
 
