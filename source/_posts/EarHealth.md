@@ -3,9 +3,8 @@ title: EarHealth
 excerpt: An Earphone-based Acoustic Otoscope for Detection of Multiple Ear Diseases in Daily Life。论文提出了一种基于耳机的耳部状况检测系统：EarHealth。它可以检测三种主要的听力健康状况：鼓膜破裂、耳垢堆积和堵塞以及中耳炎。
 date: 2022-10-28 22:15:29
 tags: 论文笔记
+index_img: https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/c8b9e43a86f43c34eff0034d6e733317_2_Figure_1.png
 ---
-
-
 
 ![image-20221025203203878](https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20221025203203878.png)
 
