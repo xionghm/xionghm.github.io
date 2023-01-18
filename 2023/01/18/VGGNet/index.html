@@ -16,26 +16,26 @@
   <meta name="author" content="xhm">
   <meta name="keywords" content="">
   
-    <meta name="description" content="本文主要介绍Typora的一些进阶使用技巧">
+    <meta name="description" content="Very Deep Convolutional Networks for Large-Scale Image Recognition">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Typora进阶使用技巧">
-<meta property="og:url" content="http://xionghm.github.io/2023/01/15/typora%E8%BF%9B%E9%98%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/index.html">
+<meta property="og:title" content="VGGNet">
+<meta property="og:url" content="http://xionghm.github.io/2023/01/18/VGGNet/index.html">
 <meta property="og:site_name" content="xhm">
-<meta property="og:description" content="本文主要介绍Typora的一些进阶使用技巧">
+<meta property="og:description" content="Very Deep Convolutional Networks for Large-Scale Image Recognition">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/4b6e01e8772b1f9db60ef79fc95f83e0.jpg">
-<meta property="article:published_time" content="2023-01-15T19:50:12.000Z">
+<meta property="og:image" content="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/v2-020158fdd8894772d43199e0cce9d3a8_1440w-3235220-3235222.jpg">
+<meta property="article:published_time" content="2023-01-18T11:06:40.481Z">
 <meta property="article:modified_time" content="2023-01-18T11:06:40.481Z">
 <meta property="article:author" content="xhm">
-<meta property="article:tag" content="Typora进阶使用技巧">
+<meta property="article:tag" content="论文笔记">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/4b6e01e8772b1f9db60ef79fc95f83e0.jpg">
+<meta name="twitter:image" content="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/v2-020158fdd8894772d43199e0cce9d3a8_1440w-3235220-3235222.jpg">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Typora进阶使用技巧 - xhm</title>
+  <title>VGGNet - xhm</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -221,7 +221,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Typora进阶使用技巧"></span>
+            <span id="subtitle" data-typed-text="VGGNet"></span>
           
         </div>
 
@@ -232,8 +232,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-15 19:50" pubdate>
-          2023年1月15日 晚上
+        <time datetime="2023-01-18 11:06" pubdate>
+          2023年1月18日 上午
         </time>
       </span>
     
@@ -244,7 +244,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          639 字
+          3.9k 字
         
       </span>
     
@@ -255,7 +255,7 @@
         
         
         
-          6 分钟
+          33 分钟
         
       </span>
     
@@ -293,58 +293,153 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Typora进阶使用技巧</h1>
+            <h1 style="display: none">VGGNet</h1>
             
             
               <div class="markdown-body">
                 
-                <h1>本文档主要记录typora使用的一些进阶技巧</h1>
-<h2 id="标题居中">标题居中</h2>
-<p>有些主题的一级标题也是居左显示，想让其居中显示，解决方法：</p>
-<p>Typora中支持html语法，故可以使用html语句设置标题居中，直接复制以下代码到文档中：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">align</span> = <span class="hljs-string">&quot;center&quot;</span>&gt;</span>居中标题<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span> <br></code></pre></td></tr></table></figure>
-<p>实现效果如下：</p>
-<h1 align = "center">居中标题</h1> 
-<blockquote>
-<p>Note:</p>
+                <h1>VGGNet</h1>
 <ul>
-<li>注意是直接复制，不是添加代码块</li>
-<li>可以按照自己的需求修改该代码，此处的h1对等markdown中的一级标题（h1 - h6）</li>
-<li>使用时将需要居中的标题替换标签内的文本即可</li>
-<li>或者可以使用 ctrl + / 打开源代码模式，输入代码，然后 ctrl + / 退出代码模式，同样能实现标题居中效果</li>
+<li>Very Deep Convolutional Networks for Large-Scale Image Recognition</li>
+<li>Karen Simonyan∗ &amp; Andrew Zisserman+</li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1409.1556.pdf">https://arxiv.org/pdf/1409.1556.pdf</a></li>
 </ul>
-</blockquote>
-<h2 id="图片居中">图片居中</h2>
-<p>有些主题的渲染方式图片不是居中显示，想要居中显示，解决方案如下：</p>
+<h2 id="简介">简介</h2>
+<p>​       VGGNet由牛津大学的视觉几何组（Visual Geometry Group）和 Google DeepMind公司的研究员一起研发的的深度卷积神经网络，在 ILSVRC 2014 上取得了第二名的成绩，将 Top-5错误率降到7.3%。</p>
+<p>​       <code>VGGNet论文给出了一个非常振奋人心的结论：卷积神经网络的深度增加和小卷积核的使用对网络的最终分类识别效果有很大的作用。</code></p>
+<h2 id="网络结构">网络结构</h2>
+<h3 id="结构">结构</h3>
 <ul>
-<li>
-<p>方法一：在Typora图片标签处添加<code>&lt;style=&quot;float:center&quot;&gt;</code>标签</p>
-<p>缺点：每一张图片都需要进行如此操作，很麻烦，不推荐</p>
-</li>
-<li>
-<p>方法二：修改主题样式文件（.css文件）</p>
+<li>输入到卷积网络的是一个修复过的大小为224*224的RGB图像（图像预处理是将每个像素减去在训练集上计算的平均RGB值），处理后迭代更少，更快收敛，加速网络训练。</li>
+<li>卷积层所用的卷积核为3×3大小（这是能抓住上下左右以及中间所有信息的最小的卷积核大小）；有些卷积层中还使用了1×1大小的卷积核（FC层之间的），可看作是输入通道的线性变换。卷积步幅固定为1像素，3×3卷积层的填充设置为1个像素。</li>
+<li>池化层采用空间池化，空间池化有五个最大池化层，他们跟在一些卷积层之后，但是也不是所有的卷积层后都跟最大池化。最大池化层使用2×2像素的窗，步幅为2。</li>
+<li>卷积层后跟三个FC层：第一、二个FC层有4096个通道，第三个FC层执行1000路ILSVRC分类因此包括1000个通道（通道对应每个类别）。</li>
+<li>所有网络的全连接层配置相同。最后一层是softmax层，用来分类。</li>
+<li>所有隐藏层都有ReLU非线性函数，网络除了第一个其他都不包含局部响应归一化（LRN）</li>
+</ul>
+<h3 id="配置">配置</h3>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/da2e6f810d0bb434c9d4e72e0989783f-3233805.png" srcset="/img/loading.gif" lazyload alt="image-20220215145014314"></p>
+<ul>
+<li>从左（A）到右（E），随着层数的增加，卷积层参数表示为conv&lt;感受野尺寸&gt;-&lt;通道数量&gt;</li>
+<li>所有卷积网络层的配置都是参照AlexNet原则做的</li>
+<li>注：层数只计算卷积层和全连接层</li>
+</ul>
+<p>参数量如下表：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/v2-53d7aad7232109762a3bf534233fd56a_1440w-3235507.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<h3 id="VGG16">VGG16</h3>
+<p>现在最常用的VGG网络为VGG16，就是D列所示结构，图示如下：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/v2-020158fdd8894772d43199e0cce9d3a8_1440w-3235220-3235222.jpg" srcset="/img/loading.gif" lazyload alt="img"></p>
+<h2 id="细节理解">细节理解</h2>
+<h3 id="细节1">细节1</h3>
+<p>相比于其他网络，VGG 网络的一个改进点是将 大尺寸的卷积核用<strong>多个小尺寸的卷积核</strong>代替。比如：VGG使用 <strong>2个3X3的卷积核</strong> 来代替 5X5的卷积核，<strong>3个3X3的卷积核</strong> 代替7X7的卷积核。</p>
+<p>好处：</p>
 <ol>
-<li>打开typora的主题样式文件夹：<code>typora --&gt; 偏好设置 --&gt; 外观 --&gt; 打开主题文件夹</code></li>
+<li>
+<p>在保证相同感受野的情况下，多个小卷积层堆积可以提升网络深度，增加特征提取能力（非线性层增加）。</p>
+<blockquote>
+<p>感受野相同的原因：假设图片大小是28×28，使用5×5的卷积核对其卷积，步长为1，卷积后得到的结果是:(28-5)/1+1=24；</p>
+<p>然后使用2个卷积核为3×3的，这里的两个是指2层：</p>
+<p>第一层3*3：卷积后得到的结果是(28-3)/1+1=26</p>
+<p>第二层3*3：卷积后得到的结果是(26-3)/1+1=24</p>
+<p>所以我们的最终结果和5*5的卷积核是一样的。</p>
+</blockquote>
+</li>
+<li>
+<p>参数更少。</p>
+<blockquote>
+<p>5*5卷积核：5×5+1=26</p>
+<p>两个3*3卷积核：3×3+1+3×3+1=20</p>
+</blockquote>
+</li>
 </ol>
-<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20230115193607747.png" srcset="/img/loading.gif" lazyload alt="image-20230115193607747"></p>
-<ol start="2">
+<h4 id="cnn感受视野">cnn感受视野</h4>
+<p>在卷积神经网络中，决定某一层输出结果中一个元素所对应的输入层的区域大小，被称为感受野（receptive field）。</p>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/v2-9ad0bfd295129b65de6dd4a291a396e2_1440w.jpg" srcset="/img/loading.gif" lazyload alt="img"></p>
+<p>感受野公式</p>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/v2-203f7d12b37b2ad6b0063f99c306fe46_1440w.png" srcset="/img/loading.gif" lazyload alt="img"></p>
+<h3 id="细节2">细节2</h3>
+<p>在FC层中间采用dropout层，防止过拟合，如下图：</p>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/5d20501198085703a46c5d20a17e560e-3234596.png" srcset="/img/loading.gif" lazyload alt="image-20220216094623184"></p>
+<p>上图左边的为一个完全的全连接层，右边为应用 dropout 后的全连接层。</p>
+<p>我们知道，典型的神经网络其训练流程是将输入通过网络进行正向传导，然后将误差进行反向传播。dropout 就是针对这一过程之中，随机地删除隐藏层的部分单元，进行上述过程。步骤为：</p>
+<blockquote>
+<p>(1)、随机删除网络中的一些隐藏神经元，<strong>保持输入输出神经元不变</strong>；</p>
+<p>(2)、将输入通过修改后的网络进行前向传播，然后将误差通过修改后的网络进行反向传播；</p>
+<p>(3)、对于另外一批的训练样本，重复上述操作 (1)。</p>
+</blockquote>
+<p>原理为：</p>
+<blockquote>
+<p>(1)、达到了一种投票的作用。对于单个神经网络而言，将其进行分批，即使不同的训练集可能会产生不同程度的过拟合，但是我们如果将其公用一个损失函数，相当于对其同时进行了优化，取了平均，因此可以较为有效地防止过拟合的发生。</p>
+<p>(2)、减少神经元之间复杂的共适应性。当隐藏层神经元被随机删除之后，使得全连接网络具有了一定的稀疏化，从而有效地减轻了不同特征的协同效应。也就是说，有些特征可能会依赖于固定关系的隐含节点的共同作用，而通过 dropout 的话，就有效地组织了某些特征在其他特征存在下才有效果的情况，增加了神经网络的鲁棒性。</p>
+</blockquote>
+<h2 id="分类框架">分类框架</h2>
+<h3 id="训练">训练</h3>
+<ol>
 <li>
-<p>选择需要修改的主题的样式文件（此处以orangeheart主题为例），用文本编辑器打开</p>
-<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20230115194105166.png" srcset="/img/loading.gif" lazyload alt="image-20230115194105166"></p>
+<p>卷积网络训练步骤大致跟随AlexNet，除了从多尺度训练图像中对输入进行采样，也就是说通过使用小批量梯度下降法优化多项式逻辑回归来进行训练。批量大小为：256，动量为：0.9。训练通过权重衰减（L2惩罚函数设置为5*10^-4）和Dropout正则化对前两层FC层作用（Dropout率设置为0.5）。学习率初始化设置为：0.01，然后当验证集准确率停止增加时学习率衰减为原来的0.1，总之学习率要减小三次，在370K次迭代（74epoch之后）停止学习。</p>
 </li>
 <li>
-<p>在文件末尾添加如下代码：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs html">.md-image:only-child&#123;<br>    width: auto;<br>    text-align: center;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20230115194717251.png" srcset="/img/loading.gif" lazyload alt="image-20230115194717251"></p>
+<p>初始化权重：网络配置A随机初始化，然后对更深层次网络结构，将前四层卷积层和后三个FC层都按照A网络的初始化配置设置，中间层接着随机初始化。没有减少预初始化层的学习率，而是让它们随着学习的进程发生改变。</p>
+<p>对于随机初始化，我们从一个均值为0方差为0.01的正态分布中对权重进行采样，偏置初始化为0</p>
+<p>发现：使用随机初始化程序可以在不进行预训练的情况下初始化权重。</p>
 </li>
 <li>
-<p>保存文件，重启typora</p>
+<p>从重缩放的训练集图像中进行随机裁剪（每次SGD迭代每幅图像都要做一次裁剪）。为进一步增加训练集，输入图像需要做随机水平翻转和随机RGB颜色偏移。</p>
+<p>训练图像重缩放：两种固定尺度的模型（①S=256，应用于AlexNet，ZFNet，Sermanet；②S=384）。</p>
+<p>考虑两种设定训练规模S的方法：</p>
+<p>方法一：给定一个卷积网络配置，首先使用S=256训练网络，为了加速S=384网络的训练，它使用S=256预训练的权重进行初始化，使用初始学习率为0.003。</p>
+<p>方法二：多尺度训练，每个训练图像通过从某个范围中随机采样S来单独重缩放（范围为[256,512]）</p>
 </li>
 </ol>
-<p><strong>优点：一劳永逸，推荐</strong></p>
-</li>
+<h3 id="测试">测试</h3>
+<p><strong>将全连接层等效替换为卷积层进行测试</strong></p>
+<p>原因是：卷积层和全连接层的唯一区别就是卷积层的神经元和输入是局部联系的，并且同一个通道（channel）内的不同神经元共享权值（weight）。卷积层和全连接层的计算实际上相同，因此可以将全连接层转换为卷积层，只要将卷积核大小设置为输入空间大小即可：例如输入为7x7x512，第一层全连接层输出4096；我们可以将其看作卷积核大小为7x7，步长为1，没有填充，输出为1x1x4096的卷积层。这样的好处在于输入图像的大小不再受限制，因此可以高效地对图像作滑动窗式预测；而且全连接层的计算量比较大，等效卷积层的计算量减小了，这样既达到了目的又十分高效。</p>
+<blockquote>
+<p><strong>为什么卷积层可以“代替”全连接层？</strong><br>
+  卷积和全连接的区别大致在于：卷积是局部连接，计算局部信息；全连接是全局连接，计算全局信息。（但二者都是采用的点积运算）<br>
+  但如果卷积核的kernel_size和输入feature maps的size一样，那么相当于该卷积核计算了全部feature  maps的信息，则相当于是一个kernel_size∗1的全连接。在全连接层上，相当于是n∗m（其中n是输入的维度，m是输出的维度）的全连接，其计算是通过一次导入到内存中计算完成；如果是在最后一个feature  maps上展开后进行的全连接，这里若不进行展开，直接使用output_size的卷积核代替，则相当于是n∗1的全连接（这里的n就是feature maps展开的向量大小，也就是卷积核的大小kernel_size∗kernel_size），使用m个卷积核则可以相当于n∗m的全连接层。<br>
+  但用卷积层代替全连接层的方式，其卷积核的计算是并行的，不需要同时读入内存中，所以使用卷积层的方式代替全连接层可以加开模型的优化。</p>
+</blockquote>
+<h2 id="结果">结果</h2>
+<h3 id="1-单尺度">1 单尺度</h3>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20220915232800304.png" srcset="/img/loading.gif" lazyload alt="image-20220915232800304"></p>
+<ul>
+<li>模型E（VGG19）的效果最好，即网络越深，效果越好</li>
+<li>同一种模型，随机scale jittering的效果好于固定S大小的256，384两种尺度，即scale jittering数据增强能更准确的提取图像多尺度信息</li>
 </ul>
-<h2 id="持续更新中">持续更新中</h2>
+<h3 id="2-多尺度">2 多尺度</h3>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20220915232952439.png" srcset="/img/loading.gif" lazyload alt="image-20220915232952439"></p>
+<ul>
+<li>对比单尺度预测，多尺度综合预测，能够提升预测的精度</li>
+<li>同单尺度预测，多尺度预测也证明了scale jittering的作用</li>
+</ul>
+<h3 id="3-多尺度裁剪">3 多尺度裁剪</h3>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20220915233059319.png" srcset="/img/loading.gif" lazyload alt="image-20220915233059319"></p>
+<ul>
+<li>数据生成方式multi-crop效果略优于dense，但作者上文也提到，精度的提高不足以弥补计算上的损失</li>
+<li>multi-crop于dense方法结合的效果最好</li>
+<li>最后，也证明了作者的猜想：multi-crop和dense两种方法互为补充</li>
+</ul>
+<h3 id="4-模型融合">4 模型融合</h3>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20220915233156845.png" srcset="/img/loading.gif" lazyload alt="image-20220915233156845"></p>
+<ul>
+<li>通过多种模型融合输出最终的预测结果，能达到最优的效果</li>
+</ul>
+<h3 id="5-对比">5 对比</h3>
+<p><img src="https://gcore.jsdelivr.net/gh/xionghm/cloud@main/img/image-20220915233300410.png" srcset="/img/loading.gif" lazyload alt="image-20220915233300410"></p>
+<ul>
+<li>与其他模型对比发现，VGG也能达到非常好的效果。</li>
+</ul>
+<h2 id="总结">总结</h2>
+<p><code>深度对网络正确率的影响是有益的</code>，但是总得来说该网络还是比较臃肿。</p>
+<p>论文中采用的技巧：</p>
+<ul>
+<li>卷积块叠加在一起，即加深网络深度。2卷+池化+2卷+池化+3卷+池化+3卷+池化+3卷+池化+3FC，从左向右尺寸越来越小，通道数越来越大。</li>
+<li>使用小卷积核：增加了非线性性、减少参数量且感受野大小相同。大部分使用3×3卷积核，有些卷积层使用1×1。两个3×3=一个5×5，三个3×3=一个7×7。</li>
+<li>保留了AlexNet中的ReLU和dropout。</li>
+<li>测试时将全连接层转换为卷积层，这样就可以输入任意大小的图像了，也就是说测试时用全卷积网络。同时也用到全局平均池化。</li>
+<li>训练时采用多尺度</li>
+</ul>
 
                 
               </div>
@@ -357,7 +452,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Typora%E8%BF%9B%E9%98%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/">#Typora进阶使用技巧</a>
+        <a href="/tags/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/">#论文笔记</a>
       
     </div>
   
@@ -369,8 +464,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Typora进阶使用技巧</div>
-      <div>http://xionghm.github.io/2023/01/15/typora进阶使用技巧/</div>
+      <div>VGGNet</div>
+      <div>http://xionghm.github.io/2023/01/18/VGGNet/</div>
     </div>
     <div class="license-meta">
       
@@ -382,7 +477,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年1月15日</div>
+          <div>2023年1月18日</div>
         </div>
       
       
@@ -414,18 +509,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/01/18/VGGNet/" title="VGGNet">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">VGGNet</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/11/03/%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5/" title="混淆矩阵">
-                        <span class="hidden-mobile">混淆矩阵</span>
+                      <a href="/2023/01/15/typora%E8%BF%9B%E9%98%B6%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" title="Typora进阶使用技巧">
+                        <span class="hidden-mobile">Typora进阶使用技巧</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
